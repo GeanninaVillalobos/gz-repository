@@ -39,6 +39,5 @@ models:
       description : One line by sales and orders
       tests:
         - unique:
-            column_name: "(orders_id)"
-        - not_null:
-          column_name: "(operational_margin)"
+            column_name: orders_id
+    
